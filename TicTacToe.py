@@ -4,9 +4,17 @@ import os
 # Function to display board
 def display_board(board):
     os.system('cls')
-    print(board[7] + "|" + board[8] + "|" + board[9])
-    print(board[4] + "|" + board[5] + "|" + board[6])
-    print(board[1] + "|" + board[2] + "|" + board[3])
+    print("   " + "|" + "   " + "|" + "   ")
+    print(" " + board[7] + " | " + board[8] + " | " + board[9] + " ")
+    print("   " + "|" + "   " + "|" + "   ")
+    print("-----------")
+    print("   " + "|" + "   " + "|" + "   ")
+    print(" " + board[4] + " | " + board[5] + " | " + board[6] + " ")
+    print("   " + "|" + "   " + "|" + "   ")
+    print("-----------")
+    print("   " + "|" + "   " + "|" + "   ")
+    print(" " + board[1] + " | " + board[2] + " | " + board[3] + " ")
+    print("   " + "|" + "   " + "|" + "   ")
 
 # Function to accept player input
 def player_input() :
